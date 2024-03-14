@@ -75,13 +75,13 @@ To use this validator, first, ensure you have your gpx files contents ready as a
 
 If the gpx file provided is valid:
 
-```JSON
+```javascript
     { valid: true, result: 'OK', messages: [] }
 ```
     
 If the provided gpx file is not valid:
 
-```JSON
+```javascript
 
      {
       valid: false,
