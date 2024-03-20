@@ -1,7 +1,8 @@
 const validator = require('xsd-schema-validator');
+const path = require('path');
 
 // Path to the test wrapper xsd
-const xsdPath = './cross-country/test_wrapper.xsd';
+const xsdPath = path.join(__dirname, '../cross-country/test_wrapper.xsd');
 
 /**
  * Validates a .gpx files XML content against the OpenRally XSD schema.
